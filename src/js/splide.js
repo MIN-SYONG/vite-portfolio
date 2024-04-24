@@ -22,6 +22,7 @@ export function splide() {
     }).mount({ AutoScroll });
 
     new Splide('#slider2', {
+        direction:'rtl',
         autoScroll: {
             speed: 5,
         }
